@@ -9,7 +9,7 @@ fn greet(name: &str) -> String {
 fn get_weather_data() -> HashMap<String, String> {
     // TODO 调用Windows API获取天气信息逻辑
     let mut weather = HashMap::new();
-    weather.insert(String::from("city"), String::from("Shanghai"));
+    weather.insert(String::from("city"), String::from("上海"));
     weather.insert(String::from("weather"), String::from("多云"));
     weather.insert(String::from("currentTemp"), String::from("13 ℃"));
     weather
